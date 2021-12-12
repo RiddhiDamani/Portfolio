@@ -1,38 +1,42 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Forum&display=swap");
+
+:root {
+  --primary-white: #fff;
+  --primary-yellow: #f9ab00;
+  --primary-dark: rgba(255, 255, 255, 0);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: "Forum, cursive";
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+/********************** NAVBAR ******************/
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.font-color {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+nav a.nav-link {
+  letter-spacing: 0.0375rem;
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+nav ul li {
+  text-transform: uppercase;
+}
+
+.navbar-nav > li > a {
+  border-top: 0.1875rem solid var(--primary-dark);
+  color: var(--primary-white) !important;
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+}
+
+.navbar-nav > li > a.active,
+.navbar-nav > li > a.active:focus {
+  border-top: 0.1875rem solid var(--primary-yellow);
+}
+
+.navbar-nav > li > a:hover {
+  border-top: 0.1875rem solid var(--primary-yellow);
 }
