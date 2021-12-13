@@ -9,10 +9,10 @@ const Header = () => {
         <Typed
           className="typed-text"
           strings={[
-            "Web Design",
-            "Web Development",
-            "UI Developer",
-            "Full Stack",
+            "User Interface Developer",
+            "Full Stack Developer",
+            "Android App Developer",
+            "UX Design",
           ]}
         />
       </div>
