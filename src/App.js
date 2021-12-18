@@ -7,6 +7,7 @@ import Particles from "react-tsparticles";
 import AboutMe from "./components/AboutMe";
 import Services from "./components/Services";
 import Experience from "./components/Experience";
+import Portfolio from "./components/Portfolio";
 
 function App() {
   return (
@@ -154,6 +155,7 @@ function App() {
       <AboutMe />
       <Services />
       <Experience />
+      <Portfolio />
     </>
   );
 }
