@@ -51,7 +51,7 @@ const Navbar = () => {
                 Services
               </Link>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <Link
                 smooth={true}
                 to="education"
@@ -61,7 +61,7 @@ const Navbar = () => {
               >
                 Education
               </Link>
-            </li>
+            </li> */}
             <li className="nav-item">
               <Link
                 smooth={true}
