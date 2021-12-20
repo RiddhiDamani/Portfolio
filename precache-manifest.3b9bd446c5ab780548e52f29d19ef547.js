@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "1ce8ee7120a2b28d06d4",
+    "revision": "36c214e3c44f43d96624",
     "url": "/Portfolio/static/css/main.8fac5462.chunk.css"
   },
   {
-    "revision": "1ce8ee7120a2b28d06d4",
-    "url": "/Portfolio/static/js/main.10ae06c9.chunk.js"
+    "revision": "36c214e3c44f43d96624",
+    "url": "/Portfolio/static/js/main.00ed5a3e.chunk.js"
   },
   {
     "revision": "6b64d540f1308ee928ad",
     "url": "/Portfolio/static/js/runtime~main.132fbc8c.js"
   },
   {
-    "revision": "0f56457ef4921a9f7e18",
+    "revision": "37d53b73b8640aeafaf7",
     "url": "/Portfolio/static/css/2.aaf8f1b2.chunk.css"
   },
   {
-    "revision": "0f56457ef4921a9f7e18",
-    "url": "/Portfolio/static/js/2.900ffbee.chunk.js"
+    "revision": "37d53b73b8640aeafaf7",
+    "url": "/Portfolio/static/js/2.314368e3.chunk.js"
   },
   {
     "revision": "6b9b6d74a410eeac53062eda589a3396",
@@ -64,7 +64,7 @@ self.__precacheManifest = [
     "url": "/Portfolio/static/media/artcade.db7f1d2d.png"
   },
   {
-    "revision": "ce560ca0bf9b3fd769df65cb189c621e",
+    "revision": "a7e5535810f8283b1e56fc62c420b41b",
     "url": "/Portfolio/index.html"
   }
 ];
