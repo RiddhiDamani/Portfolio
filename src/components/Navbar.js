@@ -25,50 +25,65 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <Link smooth={true} to="home" className="nav-link" href="/#">
+              <Link
+                to="home"
+                smooth={true}
+                duration={500}
+                spy={true}
+                exact="true"
+                className="nav-link"
+              >
                 Home
               </Link>
             </li>
             <li className="nav-item">
               <Link
-                smooth={true}
                 to="about"
+                smooth={true}
+                duration={500}
+                spy={true}
+                exact="true"
                 offset={-110}
                 className="nav-link"
-                href="#"
               >
                 About Me
               </Link>
             </li>
             <li className="nav-item">
               <Link
-                smooth={true}
                 to="education"
+                smooth={true}
+                duration={500}
+                spy={true}
+                exact="true"
                 offset={-110}
                 className="nav-link"
-                href="#"
               >
                 Education
               </Link>
             </li>
             <li className="nav-item">
               <Link
-                smooth={true}
                 to="experience"
+                smooth={true}
                 offset={-110}
+                duration={500}
+                spy={true}
+                exact="true"
                 className="nav-link"
-                href="#"
               >
                 Experience
               </Link>
             </li>
             <li className="nav-item">
               <Link
-                smooth={true}
                 to="portfolio"
+                smooth={true}
                 offset={-110}
+                duration={500}
+                spy={true}
+                exact="true"
                 className="nav-link"
-                href="#"
               >
                 Portfolio
               </Link>
@@ -89,8 +104,10 @@ const Navbar = () => {
                 smooth={true}
                 to="contacts"
                 offset={-110}
+                duration={500}
+                spy={true}
+                exact="true"
                 className="nav-link"
-                href="#"
               >
                 Contact Me
               </Link>
