@@ -1,7 +1,7 @@
 {
   "background": {
     "color": {
-      "value": "#0d47a1"
+      "value": "grey"
     }
   },
   "fpsLimit": 60,
@@ -34,10 +34,6 @@
     }
   },
   "particles": {
-    "fullScreen": {
-      "enable": true,
-      "zIndex": 0
-    },
     "color": {
       "value": "#ffffff"
     },
@@ -62,8 +58,9 @@
     "number": {
       "density": {
         "enable": true,
-        "value_area": 900
-      }
+        "value_area": 800
+      },
+      "value": 80
     },
     "opacity": {
       "value": 0.5

@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Forum&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Forum&family=Raleway:wght@100;400&display=swap");
 
 :root {
   --primary-white: #ffffff;
@@ -15,7 +15,7 @@
 }
 
 body {
-  font-family: "Forum, cursive" !important;
+  font-family: "Raleway", "sans-serif" !important;
 }
 
 /********************** NAVBAR ******************/
@@ -86,7 +86,7 @@ nav ul li {
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-family: "Forum, cursive";
+  font-family: "Raleway", "sans-serif" !important;
   z-index: 1;
 }
 
@@ -114,7 +114,7 @@ nav ul li {
 /********************** HEADER MAIN OFFER BUTTON ******************/
 
 .btn-main-offer {
-  border: 1px solid var(--primary-red);
+  border: 1px solid var(--primary-yellow);
   text-transform: uppercase;
   border-radius: 0;
   padding: 0.625rem 0.75rem 0.75rem 0.75rem;
@@ -124,8 +124,9 @@ nav ul li {
 
 .btn-main-offer:hover {
   text-decoration: none;
-  background-color: var(--primary-hover-red);
+  background-color: var(--primary-yellow);
   color: var(--primary-white);
+  font-weight: 700;
   transition: 0.2s ease-in-out;
 }
 

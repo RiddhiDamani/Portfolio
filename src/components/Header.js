@@ -1,5 +1,6 @@
 import React from "react";
 import Typed from "react-typed";
+import Pdf from "../Riddhi_Damani_CV.pdf";
 
 const Header = () => {
   return (
@@ -18,8 +19,14 @@ const Header = () => {
             "UX Designer",
           ]}
         />
-        <a href="/#" className="btn-main-offer">
-          Contact Me
+        <a
+          href={Pdf}
+          target="_blank"
+          without
+          rel="noopener noreferrer"
+          className="btn-main-offer"
+        >
+          Download My Resume
         </a>
       </div>
     </div>
