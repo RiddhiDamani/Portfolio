@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "e84c3f2d495afe7bfa45",
+    "revision": "8c1a2f0526771a37eaef",
     "url": "/Portfolio/static/css/main.be412611.chunk.css"
   },
   {
-    "revision": "e84c3f2d495afe7bfa45",
-    "url": "/Portfolio/static/js/main.616449e7.chunk.js"
+    "revision": "8c1a2f0526771a37eaef",
+    "url": "/Portfolio/static/js/main.9b0cbe7b.chunk.js"
   },
   {
     "revision": "6b64d540f1308ee928ad",
@@ -64,7 +64,7 @@ self.__precacheManifest = [
     "url": "/Portfolio/static/media/wall-and-laptop-background.870291a0.jpg"
   },
   {
-    "revision": "820f36b07d49c928561dfe8716adc281",
+    "revision": "6eaf1f2ba4854e0c0983563cf2c8e9b4",
     "url": "/Portfolio/index.html"
   }
 ];
