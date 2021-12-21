@@ -55,7 +55,7 @@ const Portfolio = () => {
       content,
       config: {
         titleBar: {
-          text: "JPaint Project",
+          text: "JPaint Project - Java 9, J2SE, AWT, Swing, VS Code, GIT, Visio (UML) ",
         },
       },
     });
@@ -64,7 +64,7 @@ const Portfolio = () => {
   const popupboxConfigJPaint = {
     titleBar: {
       enable: true,
-      text: "JPaint Project",
+      text: "JPaint Project - Java 9, J2SE, AWT, Swing, VS Code, GIT, Visio (UML) ",
     },
     fadeIn: true,
     fadeInSpeed: 500,
@@ -112,7 +112,7 @@ const Portfolio = () => {
       content,
       config: {
         titleBar: {
-          text: "Hotel Reservation System",
+          text: "Hotel Reservation System - Java Spring Framework, SQL, NoSQL(MongoDB), Postgresql, H2",
         },
       },
     });
@@ -121,7 +121,7 @@ const Portfolio = () => {
   const popupboxConfigHRS = {
     titleBar: {
       enable: true,
-      text: "Hotel Reservation System",
+      text: "Hotel Reservation System - Java Spring Framework, SQL, NoSQL(MongoDB), Postgresql, H2",
     },
     fadeIn: true,
     fadeInSpeed: 500,
@@ -133,7 +133,7 @@ const Portfolio = () => {
         <img
           className="portfolio-image-popupbox center"
           src={tipCalc}
-          alt="Tip/Split Calculator App"
+          alt="Tip/Split Calculator App - Java, Android Studio IDE, VS Code"
         />
         <p>
           The app will assist you in calculating your total dining cost with a
@@ -161,7 +161,7 @@ const Portfolio = () => {
       content,
       config: {
         titleBar: {
-          text: "Tip/Split Calculator App",
+          text: "Tip/Split Calculator App - Java, Android Studio IDE, VS Code",
         },
       },
     });
@@ -170,7 +170,7 @@ const Portfolio = () => {
   const popupboxConfigTipCalc = {
     titleBar: {
       enable: true,
-      text: "Tip/Split Calculator App",
+      text: "Tip/Split Calculator App - Java, Android Studio IDE, VS Code ",
     },
     fadeIn: true,
     fadeInSpeed: 500,
@@ -182,7 +182,7 @@ const Portfolio = () => {
         <img
           className="portfolio-image-popupbox center"
           src={todoApp}
-          alt="To-Do Web App"
+          alt="To-Do Web App - MERN (MongoDB, ExpressJS, React.js, Node.js) stack, VS Code, GIT "
         />
         <p>
           A simple to-do app built using MERN (MongoDB-ExpressJS-ReactJS-NodeJS)
@@ -218,7 +218,7 @@ const Portfolio = () => {
       content,
       config: {
         titleBar: {
-          text: "To-Do Web App",
+          text: "To-Do Web App - MERN (MongoDB, ExpressJS, React.js, Node.js) stack, VS Code, GIT ",
         },
       },
     });
@@ -227,7 +227,7 @@ const Portfolio = () => {
   const popupboxConfigToDoApp = {
     titleBar: {
       enable: true,
-      text: "To-Do Web App",
+      text: "To-Do Web App - MERN (MongoDB, ExpressJS, React.js, Node.js) stack, VS Code, GIT ",
     },
     fadeIn: true,
     fadeInSpeed: 500,
