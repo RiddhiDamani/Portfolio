@@ -9,7 +9,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
       <div className="container">
         <a className="navbar-brand" href="/#">
-          <h4 className="font-color">Riddhi Damani </h4>
+          {/* <h4 className="font-color">Riddhi Damani </h4> */}
         </a>
         <button
           className="navbar-toggler"
@@ -25,7 +25,7 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <Link smooth={true} to="home" className="nav-link" href="#">
+              <Link smooth={true} to="home" className="nav-link" href="/#">
                 Home
               </Link>
             </li>
@@ -54,17 +54,6 @@ const Navbar = () => {
             <li className="nav-item">
               <Link
                 smooth={true}
-                to="services"
-                offset={-110}
-                className="nav-link"
-                href="#"
-              >
-                Services
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                smooth={true}
                 to="experience"
                 offset={-110}
                 className="nav-link"
@@ -84,6 +73,17 @@ const Navbar = () => {
                 Portfolio
               </Link>
             </li>
+            {/* <li className="nav-item">
+              <Link
+                smooth={true}
+                to="services"
+                offset={-110}
+                className="nav-link"
+                href="#"
+              >
+                Services
+              </Link>
+            </li> */}
             <li className="nav-item">
               <Link
                 smooth={true}

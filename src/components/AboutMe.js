@@ -19,7 +19,6 @@ const AboutMe = () => {
               pursue my Master’s in Computer Science after having over 5 years
               of professional work experience.
             </p>
-
             <p>
               For my first professional contract, I was given the opportunity to
               perform search engine optimization and guest blogging for a
@@ -47,14 +46,8 @@ const AboutMe = () => {
             </p>
 
             <p>
-              Apart from my regular coursework, I have started leet coding to
-              improve my data structures and algorithms. Also, I have a profound
-              interest in ReactJS, so in one of my coursework for the Fall
-              quarter, I am working on developing MERN Web Application. In
-              another course, I am working on developing an android application
-              using Java and Android Studio IDE. This is what keeps me up at
-              night, a never-ending thirst to create beautiful, powerful apps
-              and share them with the world.
+              Apart from my regular coursework, I enjoy problem solving and
+              improving my data structures and algorithms skills.
             </p>
           </div>
         </div>

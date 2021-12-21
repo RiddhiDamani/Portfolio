@@ -42,7 +42,7 @@ const Contacts = () => {
     <div id="contacts" className="contacts">
       <div className="text-center">
         <h1>Contact Me</h1>
-        <p>GET IN TOUCH</p>
+        <p>Have a question or want to work together?</p>
         <span className="success-message">{successMessage}</span>
       </div>
       <div className="container">
@@ -140,9 +140,15 @@ const Contacts = () => {
               <span className="error-message">
                 {errors.message && errors.message.message}
               </span>
-              <button className="btn-main-offer contact-btn" type="submit">
-                Contact Me
-              </button>
+            </div>
+            <div className="row">
+              <div className="col"></div>
+              <div className="col">
+                <button className="btn-main-offer contact-btn" type="submit">
+                  SUBMIT
+                </button>
+              </div>
+              <div className="col"></div>
             </div>
           </div>
         </form>

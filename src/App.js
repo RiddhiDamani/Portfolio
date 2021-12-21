@@ -6,7 +6,7 @@ import Header from "./components/Header";
 import Particles from "react-tsparticles";
 import AboutMe from "./components/AboutMe";
 import Education from "./components/Education";
-import Services from "./components/Services";
+// import Services from "./components/Services";
 import Experience from "./components/Experience";
 import Portfolio from "./components/Portfolio";
 import Testimonials from "./components/Testimonials";
@@ -158,7 +158,7 @@ function App() {
       <Header />
       <AboutMe />
       <Education />
-      <Services />
+      {/* <Services /> */}
       <Experience />
       <Portfolio />
       <Testimonials />
