@@ -2,7 +2,7 @@ import React from "react";
 import jpaint from "../images/jpaint.png";
 import hotelReservation from "../images/hotelReservation.png";
 import tipCalc from "../images/tipCalc.png";
-import artcade from "../images/artcade.png";
+// import artcade from "../images/artcade.png";
 import todoApp from "../images/todoApp.png";
 // FontAwesome imports
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -36,6 +36,7 @@ const Portfolio = () => {
         </p>
         <b>GitHub:</b>
         <a
+          href="/#"
           className="hyper-link"
           onClick={() =>
             window.open(
@@ -92,6 +93,7 @@ const Portfolio = () => {
         </p>
         <b>GitHub:</b>
         <a
+          href="/#"
           className="hyper-link"
           onClick={() =>
             window.open(
@@ -140,6 +142,7 @@ const Portfolio = () => {
         </p>
         <b>GitHub:</b>
         <a
+          href="/#"
           className="hyper-link"
           onClick={() =>
             window.open(
@@ -188,6 +191,7 @@ const Portfolio = () => {
         </p>
         <b>App Demo:</b>
         <a
+          href="/#"
           className="hyper-link"
           onClick={() =>
             window.open("https://todo-app-v00.herokuapp.com/", "_blank")
@@ -198,6 +202,7 @@ const Portfolio = () => {
         <br />
         <b>GitHub:</b>
         <a
+          href="/#"
           className="hyper-link"
           onClick={() =>
             window.open("https://github.com/RiddhiDamani/ToDo_App", "_blank")

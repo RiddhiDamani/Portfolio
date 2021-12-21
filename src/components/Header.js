@@ -18,7 +18,7 @@ const Header = () => {
             "UX Designer",
           ]}
         />
-        <a href="#" className="btn-main-offer">
+        <a href="/#" className="btn-main-offer">
           Contact Me
         </a>
       </div>
