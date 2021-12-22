@@ -25,27 +25,12 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <Link
-                to="home"
-                smooth={true}
-                duration={500}
-                spy={true}
-                exact="true"
-                className="nav-link"
-              >
+              <Link to="home" smooth={true} className="nav-link">
                 Home
               </Link>
             </li>
             <li className="nav-item">
-              <Link
-                to="about"
-                smooth={true}
-                duration={500}
-                spy={true}
-                exact="true"
-                offset={-110}
-                className="nav-link"
-              >
+              <Link to="about" smooth={true} offset={-110} className="nav-link">
                 About Me
               </Link>
             </li>
@@ -53,9 +38,6 @@ const Navbar = () => {
               <Link
                 to="education"
                 smooth={true}
-                duration={500}
-                spy={true}
-                exact="true"
                 offset={-110}
                 className="nav-link"
               >
@@ -67,9 +49,6 @@ const Navbar = () => {
                 to="experience"
                 smooth={true}
                 offset={-110}
-                duration={500}
-                spy={true}
-                exact="true"
                 className="nav-link"
               >
                 Experience
@@ -80,9 +59,6 @@ const Navbar = () => {
                 to="portfolio"
                 smooth={true}
                 offset={-110}
-                duration={500}
-                spy={true}
-                exact="true"
                 className="nav-link"
               >
                 Portfolio
@@ -104,9 +80,6 @@ const Navbar = () => {
                 smooth={true}
                 to="contacts"
                 offset={-110}
-                duration={500}
-                spy={true}
-                exact="true"
                 className="nav-link"
               >
                 Contact Me
