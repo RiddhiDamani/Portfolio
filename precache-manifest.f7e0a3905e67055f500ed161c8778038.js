@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "b6bbd22bb06c65071293",
-    "url": "/Portfolio/static/css/main.be412611.chunk.css"
+    "revision": "0e8c418f68f0a87d9229",
+    "url": "/Portfolio/static/css/main.7978c945.chunk.css"
   },
   {
-    "revision": "b6bbd22bb06c65071293",
-    "url": "/Portfolio/static/js/main.92a4b9f2.chunk.js"
+    "revision": "0e8c418f68f0a87d9229",
+    "url": "/Portfolio/static/js/main.3cbbfeb3.chunk.js"
   },
   {
     "revision": "6b64d540f1308ee928ad",
     "url": "/Portfolio/static/js/runtime~main.132fbc8c.js"
   },
   {
-    "revision": "da7c3944f29661ed1d01",
+    "revision": "ecc63c9a4e7aad779fc4",
     "url": "/Portfolio/static/css/2.aaf8f1b2.chunk.css"
   },
   {
-    "revision": "da7c3944f29661ed1d01",
-    "url": "/Portfolio/static/js/2.6c5f1cf6.chunk.js"
+    "revision": "ecc63c9a4e7aad779fc4",
+    "url": "/Portfolio/static/js/2.cea73d6f.chunk.js"
   },
   {
     "revision": "6b9b6d74a410eeac53062eda589a3396",
@@ -64,7 +64,7 @@ self.__precacheManifest = [
     "url": "/Portfolio/static/media/wall-and-laptop-background.870291a0.jpg"
   },
   {
-    "revision": "1513d5bd48a96c09783f967f2f61cfd9",
+    "revision": "6432365f134c888d7c2a0dd002156645",
     "url": "/Portfolio/index.html"
   }
 ];
