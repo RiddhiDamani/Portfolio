@@ -711,3 +711,7 @@ textarea.form-control {
 .footer p {
   margin-bottom: 0;
 }
+
+.socialIcon {
+  margin: 1%;
+}

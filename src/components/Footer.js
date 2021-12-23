@@ -1,11 +1,5 @@
 import React from "react";
-
-import {
-  LinkedinShareButton,
-  LinkedinIcon,
-  FacebookShareButton,
-  FacebookIcon,
-} from "react-share";
+import { SocialIcon } from "react-social-icons";
 
 const Footer = () => {
   return (
@@ -32,13 +26,21 @@ const Footer = () => {
           </div>
           <div className="col-lg-5 col-md-5 col-sm-6 align-items-center">
             <div className="d-flex justify-content-center">
-              <FacebookShareButton url="https://github.com/RiddhiDamani">
-                <FacebookIcon className="mx-3" size={36}></FacebookIcon>
-              </FacebookShareButton>
-
-              <LinkedinShareButton url="https://www.linkedin.com/in/riddhidamani/">
-                <LinkedinIcon className="mx-3" size={36}></LinkedinIcon>
-              </LinkedinShareButton>
+              <SocialIcon
+                className="socialIcon"
+                url="https://www.linkedin.com/in/riddhidamani/"
+                bgColor="white"
+              />
+              <SocialIcon
+                className="socialIcon"
+                url="https://github.com/RiddhiDamani"
+                bgColor="white"
+              />
+              <SocialIcon
+                className="socialIcon"
+                url="https://www.instagram.com/riddhi.damani/"
+                bgColor="white"
+              />
             </div>
             <p className="pt-3 text-center">
               Copyright &copy; {new Date().getFullYear()}&nbsp; Riddhi Damani |
