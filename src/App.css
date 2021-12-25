@@ -433,12 +433,14 @@ nav ul li {
   width: 20rem !important;
   border: 1px solid var(--primary-yellow);
   padding: 0 0.3rem;
+  border-radius: 5%;
 }
 
 .portfolio-image-box {
   position: relative;
   margin: 1rem;
   width: auto !important;
+  border-radius: 5%;
 }
 
 /********************** OVERFLOW BOX **********************/
@@ -451,11 +453,13 @@ nav ul li {
   top: 0;
   border: 1px solid var(--primary-red);
   cursor: pointer;
+  border-radius: 5%;
 }
 
 .portfolio-image-box:hover .overflow {
   opacity: 60%;
   transition: 0.3s ease-in-out;
+  border-radius: 5%;
 }
 
 .portfolio-icon {
