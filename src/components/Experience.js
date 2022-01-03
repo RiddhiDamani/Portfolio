@@ -106,7 +106,7 @@ const Experience = () => {
         <div className="timeline-block timeline-block-left">
           <div className="marker"></div>
           <div className="timeline-content">
-            <h4>Jul 2012 - Apr 2016</h4>
+            <h4>Jul 2012 - Apr 2013</h4>
             <h3>SEO Content Writer</h3>
             <h4>WebSmith Technologies Pvt. Ltd., India</h4>
             <p>
