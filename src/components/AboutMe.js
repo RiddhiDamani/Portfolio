@@ -16,7 +16,7 @@ const AboutMe = () => {
             <p>
               First and foremost, I love writing code, and I enjoy drawing at my
               leisure. My passion for both these worlds has encouraged me to
-              pursue my Master’s in Computer Science after having over 5 years
+              pursue my Master in Computer Science after having over 5 years
               of professional work experience.
             </p>
             <p>
