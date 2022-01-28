@@ -1,5 +1,5 @@
 import React from "react";
-import author from "../profile-pic.png";
+import author from "../Riddhi.jpg";
 
 const AboutMe = () => {
   return (
@@ -16,8 +16,8 @@ const AboutMe = () => {
             <p>
               First and foremost, I love writing code, and I enjoy drawing at my
               leisure. My passion for both these worlds has encouraged me to
-              pursue my Master in Computer Science after having over 5 years
-              of professional work experience.
+              pursue my Master in Computer Science after having over 5 years of
+              professional work experience.
             </p>
             <p>
               For my first professional contract, I was given the opportunity to
