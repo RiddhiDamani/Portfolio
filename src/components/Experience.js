@@ -56,7 +56,7 @@ const Experience = () => {
               delivered the code in the production region. Project was built
               using Agile methodology approach. Performed bi-weekly client demos
               of the product. Optimized the front-end code by reducing the code
-              lines by 55% and efficiently solved the sprint backlogs as
+              lines by 30% and efficiently solved the sprint backlogs as
               assigned in JIRA. Portal was made cross-browser compatible (IE 11,
               Mozilla, and Chrome) and adhered to Ericson standards. Language
               translation was supported.
